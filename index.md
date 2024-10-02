@@ -1,3 +1,1 @@
-# Test Github
-## Test Github
-### Test Github
+![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
