@@ -3,9 +3,43 @@
 ### Test
 #### Test
 
+# Image
 ![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
 
-$ git init
-Initialized empty Git repository in /Users/skills/Projects/recipe-repository/.git/
+# Code
+function pegarItemAleatorio<T>(items: T[]): T {
+  let indiceAleatorio = Math.floor(Math.random() * items.length);
+  return items[indiceAleatorio];
+}
+
+// Caixa de frutas
+let frutas = [
+  'Maçã',
+  'Banana',
+  'Laranja',
+  'Pera',
+  'Uva',
+  'Manga',
+  'Morango',
+  'Melancia',
+];
+let frutaAleatoria = pegarItemAleatorio<string>(frutas);
+console.log('Fruta aleatória:' + ' ' + `${frutaAleatoria}`);
+
+// Caixa de animais de estimação
+let animaisDeEstimacao = [
+  'Cachorro',
+  'Gato',
+  'Peixe',
+  'Papagaio',
+  'Hamster',
+  'Coelho',
+];
+let animalAleatorio = pegarItemAleatorio<string>(animaisDeEstimacao);
+console.log('Animal de estimação aleatório: ' + animalAleatorio);
+
+
+
+
 
 
