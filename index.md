@@ -38,8 +38,10 @@ let animaisDeEstimacao = [
 let animalAleatorio = pegarItemAleatorio<string>(animaisDeEstimacao);
 console.log('Animal de estimação aleatório: ' + animalAleatorio);
 
-
-
+# Task Test
+- [ ] Turn on GitHub Pages
+- [ ] Outline my portfolio
+- [ ] Introduce myself to the world
 
 
 
